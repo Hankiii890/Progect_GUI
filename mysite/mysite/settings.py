@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'app',
 	'm3_ext',
 	'm3_ext.ui',
-	'objectpack',
+	'objectpack'
 ]
 
 MIDDLEWARE = [
