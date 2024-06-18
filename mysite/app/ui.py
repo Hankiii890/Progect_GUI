@@ -13,6 +13,9 @@ class UserUI(BaseListWindow):
 
 
 class UserAddUI(BaseEditWindow):
+    """Атрибут адреса электронной почты и значения
+        получены из ввода пользователем при регистрации.
+    """
     def _init_components(self):
         super(UserAddUI, self)._init_components()
 
